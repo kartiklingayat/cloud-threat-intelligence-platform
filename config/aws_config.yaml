@@ -1,0 +1,12 @@
+aws:
+  region: us-east-1
+  services:
+    cloudtrail:
+      enabled: true
+      log_group: CloudTrail/DefaultLogGroup
+    guardduty:
+      enabled: true
+    s3:
+      bucket: security-logs-bucket
+  credentials:
+    profile: default
