@@ -51,7 +51,22 @@ text
 - Azure Subscription
 
 ### Installation
-```bash
-git clone https://github.com/yourusername/cloud-threat-intelligence-platform.git
+# Create new repository
+mkdir cloud-threat-intelligence-platform
 cd cloud-threat-intelligence-platform
-pip install -r requirements.txt
+
+# Initialize git
+git init
+
+# Add all files
+git add .
+
+# Commit changes
+git commit -m "Initial commit: Cloud Threat Intelligence Platform with ML-based anomaly detection"
+
+# Add remote origin
+git remote add origin https://github.com/kartiklingayat/cloud-threat-intelligence-platform.git
+
+# Push to GitHub
+git branch -M main
+git push -u origin main
