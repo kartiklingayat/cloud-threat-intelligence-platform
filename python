@@ -1,0 +1,5 @@
+from src.threat_detection import ThreatAnalyzer
+
+analyzer = ThreatAnalyzer()
+results = analyzer.detect_anomalies('log_file.csv')
+print(results)
