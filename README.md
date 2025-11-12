@@ -1,7 +1,6 @@
 # cloud-threat-intelligence-platform
 🗂️ Project 1: Cloud Threat Intelligence Platform
 📁 Folder Structure:
-text
 cloud-threat-intelligence-platform/
 ├── src/
 │   ├── main.py
@@ -15,7 +14,6 @@ cloud-threat-intelligence-platform/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
-📄 README.md Content:
 markdown
 # 🛡️ Cloud Threat Intelligence Platform
 
