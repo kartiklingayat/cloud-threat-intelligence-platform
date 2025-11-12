@@ -1,0 +1,22 @@
+aws:
+  access_key: "${AWS_ACCESS_KEY_ID}"
+  secret_key: "${AWS_SECRET_ACCESS_KEY}"
+  region: "us-east-1"
+  cloudtrail_bucket: "my-cloudtrail-bucket"
+
+azure:
+  tenant_id: "${AZURE_TENANT_ID}"
+  client_id: "${AZURE_CLIENT_ID}"
+  client_secret: "${AZURE_CLIENT_SECRET}"
+  subscription_id: "${AZURE_SUBSCRIPTION_ID}"
+
+ml:
+  model_path: "models/anomaly_detector.joblib"
+  contamination: 0.1
+  n_estimators: 100
+  random_state: 42
+
+general:
+  batch_size: 1000
+  processing_interval: 300
+  confidence_threshold: 0.85
